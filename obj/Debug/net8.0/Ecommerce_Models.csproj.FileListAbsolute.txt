@@ -9,3 +9,4 @@ D:\Project_C#\Web_Ecommerce_Server\Ecommerce_Models\obj\Debug\net8.0\Ecommerce_M
 D:\Project_C#\Web_Ecommerce_Server\Ecommerce_Models\obj\Debug\net8.0\refint\Ecommerce_Models.dll
 D:\Project_C#\Web_Ecommerce_Server\Ecommerce_Models\obj\Debug\net8.0\Ecommerce_Models.pdb
 D:\Project_C#\Web_Ecommerce_Server\Ecommerce_Models\obj\Debug\net8.0\ref\Ecommerce_Models.dll
+D:\Project_C#\Web_Ecommerce_Server\Ecommerce_Models\obj\Debug\net8.0\Ecommerce_Models.sourcelink.json
