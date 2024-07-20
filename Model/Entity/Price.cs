@@ -15,5 +15,5 @@ public partial class Price
 
     public DateTime UpdateAt { get; set; }
 
-    public virtual Product PIdNavigation { get; set; } = null!;
+    public virtual Product? PIdNavigation { get; set; } = null!;
 }

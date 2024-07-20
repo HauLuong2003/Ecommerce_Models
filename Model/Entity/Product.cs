@@ -1,22 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace Ecommerce_Models.Model.Entity;
 
 public partial class Product
 {
     public int PId { get; set; }
-
+    [Required]
     public string Name { get; set; } = null!;
-
+    
     public string? Description { get; set; }
 
     public int Quantity { get; set; }
 
     public bool Featured { get; set; }
-
+   
     public int BrandId { get; set; }
-
+    
     public string? Image1 { get; set; }
 
     public string? Image2 { get; set; }
@@ -27,7 +28,7 @@ public partial class Product
 
     public DateTime UpdateAt { get; set; }
 
-    public virtual Brand Brand { get; set; } = null!;
+    public virtual Brand? Brand { get; set; } = null!;
 
     public virtual ICollection<Detail> Details { get; set; } = new List<Detail>();
 

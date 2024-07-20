@@ -11,5 +11,6 @@ namespace Ecommerce_Models.Service
         Task<User> GetUserByPhone(string phone);
         Task<List<User>> GetUserByName(string name);
         Task<List<User>> GetAllUser();
+        Task<List<User>> GetAllAdmin();
     }
 }

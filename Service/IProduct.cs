@@ -1,5 +1,5 @@
-﻿
-using Ecommerce_Models.Model.Entity;
+﻿using Ecommerce_Models.Model.Entity;
+using Ecommerce_Models.Model.Request;
 using Ecommerce_Models.Response;
 
 namespace Ecommerce_Models.Service
@@ -7,7 +7,7 @@ namespace Ecommerce_Models.Service
     public interface IProduct
     {
         //tao interface addProduct
-        Task<Product> AddProduct( Product model);
+        Task<ServiceResponse> AddProduct(AddProductDTO addProduct);
         //tao interface getAllProduct
         Task<List<Product>> GetProductfeatured(bool featuredProducts);
         Task<List<Product>> GetAllProduct();

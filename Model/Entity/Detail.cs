@@ -35,5 +35,5 @@ public partial class Detail
 
     public int PId { get; set; }
 
-    public virtual Product PIdNavigation { get; set; } = null!;
+    public virtual Product? PIdNavigation { get; set; } = null!;
 }

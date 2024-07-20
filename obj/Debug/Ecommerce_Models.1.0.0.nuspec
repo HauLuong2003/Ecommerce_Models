@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Ecommerce_Models</id>
+    <version>1.0.0</version>
+    <authors>Ecommerce_Models</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="82c91523941dd022c78ff6b7778e8f7e948ebac0" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Project_C#\Web_Ecommerce_Server\Ecommerce_Models\bin\Debug\net8.0\Ecommerce_Models.dll" target="lib\net8.0\Ecommerce_Models.dll" />
+  </files>
+</package>
